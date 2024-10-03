@@ -1,0 +1,14 @@
+const time
+const file
+const bot
+# ^^^ Const
+function addfile; {
+  run script "<textarea placehoalder="Your file name" id="filename" name="filename?id=filename">"
+  while typing;
+    start %#file-bot%;
+      @src="cnd.planett.net/v1/file/?bot=file/?utm=onlybot/#pla-file"
+      @&bot = %#file-bot%
+      if src="bot.planett.net/?bot=file/" http-request='200';
+        set @&bot to '200'
+        }
+      
