@@ -1,0 +1,16 @@
+@link htmlCollection
+const link
+const while
+const loop
+const time
+# Loop script cdn
+link src="cdn.planett.net/v1/pla/codes/index.pla/?utm=onlybot/#pla"
+
+# Loop every 1 second
+every 1 second; {
+  if %#bot% is offline;
+    while %#bot% is offline;
+      start %#bot%
+      src="cdn.planett.net/v1/pla/loop/start-bot/start-script.pla/?utm=onlybot/#pla"
+  }
+  
